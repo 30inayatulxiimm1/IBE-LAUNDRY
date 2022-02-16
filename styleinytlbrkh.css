@@ -1,0 +1,181 @@
+body {
+      font-family: "Avenir Next";
+}
+
+li {
+	  list-style: none;
+}
+
+.kop {
+	  background-color: #556B2F;
+	  color: #fff;
+	  height: 50px;
+}
+	   
+.header {
+	  background-color: #556B2F;
+	  color: #fff;
+	  height: 90px;
+}
+
+.header li:hover {
+	  background-color: #BDB76B; 
+	  font-size:25px;
+	  color: #2F4F4F;
+}
+
+.header-logo img{
+	  float: left;
+	  width: 80px;
+	  height: 80px;
+	  border: 5px solid black;
+	  border-radius: 10px;
+	  margin-left: 20px;
+	  background-color: #8FBC8F	;
+}
+
+.header-logo2 {
+	  float: right;
+	  font-size: 25px;
+	  padding: 26px 30px;
+	  color:black;
+	  background-color: #8FBC8F	;
+	  border:4px solid black;
+	  border-radius: 10px;
+}
+
+.header-list li {
+	  float: left;
+	  padding: 33px 20px;
+	  border-radius: 30px;
+      border:1px solid black;
+      padding : 20px 40px;
+      margin-left: 20px ;
+      margin-top:10px;
+      background-color: #8FBC8F;
+}
+
+.main {
+	  padding: 100px 80px; 
+          	   
+}
+
+.copy-container h3{
+	text-align: center;
+}
+
+.contents22  {
+	  height: 700px;
+	  margin-top: 100px;
+}
+
+.contents-item2 p {
+	  font-size: 14px;
+	  text-align:center;
+	  margin-top: 30px;
+	  border:2px solid blue;
+	  border-radius:25px;
+	  background-color:#8FBC8F;
+	  color:white
+}
+
+.contents-item2 img{
+	 width: 250px;
+     height: 250px;
+}
+  
+.contents-item2 p:hover {
+	  font-size: 14px;
+	  text-align:center;
+	  margin-top: 30px;
+	  border:2px solid blue;
+	  border-radius:25px;
+	  background-color: #5F9EA0;
+	  color:white;
+}
+
+.contents-item {
+	  float: left;
+	  margin-right: 20px;
+	  padding: 10px 10px;
+}
+
+.contents-item2 {
+	  float: left;
+	  margin-right: 20px;
+}
+
+
+.copy-container img{
+	margin-left: 335px;
+}
+	
+
+.copy-container span {
+      color: #ff4a4a;	
+}
+
+
+.contents3 {
+	  margin-top: 40px;
+	  margin-left: 60px;
+	  width: 500px 1000px;
+	  background-color : white;
+}
+
+.contents3 p{
+	  font-weight: normal;
+}
+
+.contents33 h1{
+	 text-align: center;
+}
+
+.contents-item2 {
+	float: left;
+	
+}
+
+.reset {
+	clear: both;
+}
+
+table {
+	background-color: #E0FFFF;
+}
+
+.form{
+	float: left;
+	padding :50px;
+	font-size :20px;
+}
+		
+.form button{
+	font-size: 20px;
+}
+
+.footer {
+	  background-color: #556B2F;
+	  height: 40px;
+	  color: #fff;
+	  padding: 40px;
+}
+
+.footer-logo {
+      font-size: 32px;
+      float: left;
+}
+
+.footer-list {
+      float: right;
+}
+
+.footer-list2 {
+      text-align: center;
+      color: gold;
+	  font-size: 30px;
+}
+
+.footer-list li { 
+      padding-bottom: 10px;
+}

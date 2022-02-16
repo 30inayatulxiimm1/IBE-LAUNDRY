@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset="utf-8">
+     <title>Web Penilaian PKK</title>
+     <link rel="stylesheet" href="styleinytlbrkh.css">
+ </head>
+ <body>
+     <div class="kop">
+	 <marquee direction="right" height="100px">
+		<p>SELAMAT DATANG DI IBE LAUNDRY</p>
+     </marquee>
+	
+	 </div>
+     <div class="header">		
+		 <div class="header-logo">
+			 <img src="https://drive.google.com/uc?export=view&id=1HB6wJgLOq7stQhM3uYlLylcvFnvsN2zZ" width="100" height="100"> </div>		 	
+         <div class="header-logo2">OK</div>
+         <div class="header-list">
+			 <ul>
+				  <li><a href="index.html">  Beranda </li></a>
+				  <li><a href="produkusaha.html">  Produk </li></a>
+				  <li><a href="kontakusaha.html">  Kontak </li></a>
+				  <li><a href="infousaha.html">  Info </li></a>
+			 </ul>
+         </div>
+     </div>
+	 
+	 <div class="contact-form">
+	 <title>Belajar Tabel</title>
+		<style type="text/css">
+			button {
+				width: 100%;
+				height: 40px;
+				background-color: #4CAF50;
+				border: none;
+				color: white;
+				padding: 10px;
+				font-size: 16px;
+				cursor: pointer;
+				
+			}
+		</style>
+	  </div>
+	 <div class="contents33">	 
+		<h1>SILAHKAN KETIK NAMA BARANG DAN NOMINAL HARGA BARANG</h1>
+	</div>
+
+<div class="contact-form">
+<center>
+						<table border="0">
+							<tr>
+								<th colspan="2" bgcolor="#778899">PERHITUNGAN BELANJA</th>
+							</tr>
+							<tr>
+								<th colspan="2" bgcolor="#B0C4DE">IBE LAUNDRY</th>
+							</tr>
+							<tr>
+								<td align="center">NAMA BARANG</td>
+								<td align="center"><input type="text" id="ipt_namabarang"></td>
+							</tr>
+							<tr>
+								<td align="center">HARGA BARANG</td>
+								<td align="center"><input type="text" id="ipt_hargabarang"></td>
+							</tr>
+							<tr>
+								<td align="center">JUMLAH BARANG</td>
+								<td align="center"><input type="text" id="ipt_jumlahbarang"></td>
+							</tr>
+							<tr>
+								<td align="center">DISKON</td>
+								<td align="center"><input type="text" id="ipt_diskon"></td>
+							</tr>
+							<tr>
+								<td align="center" colspan="2"><button onclick="hitung()"=>HITUNG</button> </td>
+							</tr>
+							<tr>
+								<td align="center" colspan="2">
+									<p>AYO BELANJA</p>
+									<p>IBE LAUNDRY</p>
+								</td>
+							</tr>
+							<tr>
+								<td align="center">NAMA BARANG</td>
+								<td align="center"><input type="text" id="opt_namabarang" disabled></td>
+							</tr>
+							<tr>
+								<td align="center">HARGA BARANG</td>
+								<td align="center"><input type="text" id="opt_hargabarang" disabled></td>
+							</tr>
+							<tr>
+								<td align="center">JUMLAH BARANG</td>
+								<td align="center"><input type="text" id="opt_jumlahbarang" disabled></td>
+							</tr>
+							<tr>
+								<td align="center">DISKON</td>
+								<td align="center"><input type="text" id="opt_diskon" disabled></td>
+							</tr>
+							<tr>
+								<td align="center">TOTAL HARGA</td>
+								<td align="center"><input type="text" id="opt_totalharga" disabled></td>
+							</tr>
+							<tr>
+								<td align="center" colspan="2"><button onclick="reset()"=>RESET</button></td>
+							</tr>
+						</table>
+						<script>
+							var namabarang;
+							var hargabarang;
+							var jumlahbarang;
+							var diskon;
+							var totalharga;
+							function hitung() {
+								namabarang = document.getElementById("ipt_namabarang").value;
+								hargabarang = parseFloat(document.getElementById("ipt_hargabarang").value);
+								jumlahbarang = parseFloat(document.getElementById("ipt_jumlahbarang").value);
+								diskon = parseFloat(document.getElementById("ipt_diskon").value);
+								totalharga = (hargabarang * jumlahbarang) - (hargabarang * jumlahbarang * diskon/100);
+								document.getElementById("opt_namabarang").value = namabarang;
+								document.getElementById("opt_hargabarang").value = hargabarang;
+								document.getElementById("opt_jumlahbarang").value = jumlahbarang;
+								document.getElementById("opt_diskon").value = diskon;
+								document.getElementById("opt_totalharga").value = totalharga;
+							}
+							function reset(){
+								document.getElementById("ipt_namabarang").value = "";
+								document.getElementById("ipt_hargabarang").value = "";
+								document.getElementById("ipt_jumlahbarang").value = "";
+								document.getElementById("ipt_diskon").value ="";
+								document.getElementById("opt_namabarang").value = "";
+								document.getElementById("opt_hargabarang").value = "";
+								document.getElementById("opt_jumlahbarang").value = "";
+								document.getElementById("opt_diskon").value ="";
+								document.getElementById("opt_totalharga").value = "";
+                            }
+						</script>
+</center>
+	</div>				
+</div>
+	<div class="footer">
+		   <div class="footer-logo">MM</div>
+		  <div class="footer-list">
+				<ul>
+				  <li>PKK SHOP</li>
+				  <li>IBE SHOP</li>
+				</ul>				
+		  </div>
+		  <div class="footer-list2">
+				<p> THANKYO </p>
+		  </div>
+     </div>
+    </body>
+</html>
